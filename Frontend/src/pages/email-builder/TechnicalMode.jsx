@@ -6,7 +6,7 @@ import StyleControls from "../../components/shared/StyleControls";
 import generateEmailTemplate from "../../utils/emailTemplate";
 
 //const API_URL = "http://localhost:5000";
-const API_URL = "https://email-builder-gules.vercel.app";
+const API_URL = "https://email-builder-backend.vercel.app";
 // Quill editor formats
 const formats = [
   "header",

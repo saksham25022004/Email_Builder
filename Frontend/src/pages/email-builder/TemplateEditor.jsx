@@ -3,7 +3,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 import generateEmailTemplate from "../../utils/emailTemplate";
 
 // const API_URL = "http://localhost:5000";
-const API_URL = "https://email-builder-gules.vercel.app";
+const API_URL = "https://email-builder-backend.vercel.app";
 const TemplateEditor = () => {
   const navigate = useNavigate();
   const location = useLocation();
