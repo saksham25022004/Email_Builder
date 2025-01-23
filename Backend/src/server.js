@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 5000;
 
 // CORS configuration
 const allowedOrigins = [
-  "https://email-builder-rapidquest.vercel.app",
+  "https://email-builder-btl2.vercel.app",
   "http://localhost:5173", // Development
   "http://localhost:3000", // Alternative development port
 ];
