@@ -82,7 +82,7 @@ app.use(function (req, res, next) {
 // MongoDB connection
 mongoose
   .connect(
-    process.env.MONGODB_URI || "mongodb://localhost:27017/emailBuilder",
+    process.env.DB_URL || "mongodb://localhost:27017/emailBuilder",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
@@ -90,6 +90,7 @@ mongoose
   )
   .then(() => {
     console.log("Connected to MongoDB");
+    console.log(process.env.DB_URL);
   })
   .catch((err) => {
     console.error("MongoDB connection error:", err);
