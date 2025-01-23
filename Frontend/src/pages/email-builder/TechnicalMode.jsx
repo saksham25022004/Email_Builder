@@ -5,8 +5,8 @@ import "react-quill/dist/quill.snow.css";
 import StyleControls from "../../components/shared/StyleControls";
 import generateEmailTemplate from "../../utils/emailTemplate";
 
-// const API_URL = "http://localhost:5000";
-const API_URL = "https://email-builder-backend.vercel.app";
+const API_URL = "http://localhost:5000";
+//const API_URL = "https://email-builder-backend.vercel.app";
 // Quill editor formats
 const formats = [
   "header",
@@ -291,9 +291,9 @@ const TechnicalMode = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 p-6">
+    <div className="bg-gradient-to-br from-gray-50 to-gray-100 p-6">
       <div className="max-w-7xl mx-auto">
-        <div className="flex justify-between items-center mb-8">
+        <div className="flex justify-between items-center mb-4">
           <div>
             <h1 className="text-3xl font-bold text-gray-800">
               Email Template Builder
@@ -347,7 +347,7 @@ const TechnicalMode = () => {
         <div className="bg-white rounded-xl shadow-xl overflow-hidden">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-0">
             {/* Editor Side */}
-            <div className="p-4 lg:p-8 lg:border-r border-gray-200 overflow-y-auto max-h-[calc(100vh-12rem)]">
+            <div className="p-2 lg:p-8 lg:border-r border-gray-200 overflow-y-auto max-h-[calc(108vh-12rem)]">
               <div className="space-y-6 lg:space-y-8">
                 {/* Title Input */}
                 <div>

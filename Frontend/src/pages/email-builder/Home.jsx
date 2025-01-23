@@ -42,15 +42,6 @@ const Home = () => {
               className="text-5xl font-bold text-gray-900 mb-6"
             >
               Email Builder
-              <motion.span
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: 0.3, duration: 0.5 }}
-                className="text-blue-600"
-              >
-                {" "}
-                Pro
-              </motion.span>
             </motion.h1>
             <motion.p
               initial={{ opacity: 0 }}
@@ -316,7 +307,7 @@ const Home = () => {
             className="text-center mb-12"
           >
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              How to Use Email Builder Pro
+              How to Use Email Builder
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
               Follow these simple steps to create beautiful email templates in
@@ -374,7 +365,7 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              About Email Builder Pro
+              About Email Builder
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
               A powerful email template builder designed to make email creation
@@ -506,7 +497,7 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-3 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">Email Builder Pro</h3>
+              <h3 className="text-xl font-bold mb-4">Email Builder</h3>
               <p className="text-gray-400">
                 Create beautiful email templates with ease
               </p>
@@ -549,14 +540,14 @@ const Home = () => {
                   href="mailto:support@emailbuilder.pro"
                   className="text-blue-400 hover:text-blue-300"
                 >
-                  support@emailbuilder.pro
+                  support@emailbuilder
                 </a>
               </p>
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
             <p>
-              &copy; {new Date().getFullYear()} Email Builder Pro. All rights
+              &copy; {new Date().getFullYear()} Email Builder. All rights
               reserved.
             </p>
           </div>
